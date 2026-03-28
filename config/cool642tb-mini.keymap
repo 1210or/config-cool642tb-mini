@@ -56,7 +56,7 @@
         FUNCTION {
             bindings = <
 &kp N1    &kp N2     &kp N3     &kp N4     &kp N5                                     &kp PRINTSCREEN   &kp LA(LEFT)  &kp UP_ARROW  &kp LA(RIGHT)  &kp LC(A)
-&kp PLUS  &kp MINUS  &kp ASTRK  &kp SLASH  &kp EQUAL  &kp UNDER      &kp LA(LC(DEL))  &kp LA(UP_ARROW)  &kp LEFT      &kp DOWN      &kp UP_ARROW   &kp A
+&kp PLUS  &kp MINUS  &kp ASTRK  &kp SLASH  &kp EQUAL  &kp UNDER      &kp LA(LC(DEL))  &kp LA(UP_ARROW)  &kp LEFT      &kp DOWN      &kp RIGHT      &kp A
 &kp F1    &kp F2     &kp F3     &kp F4     &kp F5     &trans         &kp LA(LC(END))  &kp LA(TAB)       &kp HOME      &kp LA(TAB)   &kp END        &kp LEFT_WIN
 &trans    &trans     &trans     &trans     &trans     &trans         &trans           &trans                                                       &trans
             >;
