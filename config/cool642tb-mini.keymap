@@ -92,7 +92,7 @@
 &kp LS(EXCL)  &kp AT        &kp LS(POUND)  &kp LS(DLLR)  &kp LS(PRCNT)                                        &trans                 &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp MINUS
 &kp SQT       &kp LS(LBRC)  &kp LBKT       &kp LS(LPAR)  &kp LS(DQT)    &kp LS(LT)      &kp JP_LBRACKET      &kp JP_RBRACKET      &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp SQT
 &trans        &trans        &trans         &trans        &trans         &trans          &kp JP_LPAREN  &kp JP_RPAREN  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp BACKSLASH
-&trans        &trans        &trans         &trans        &trans         &trans          &trans                &kp NUMBER_0                                                     &kp AT
+&trans        &trans        &trans         &trans        &trans         &trans          &trans                &kp NUMBER_0                                                     &kp JP_AT
             >;
         };
 
