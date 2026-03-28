@@ -44,10 +44,10 @@
 
         default_layer {
             bindings = <
-&kp Q      &kp W           &kp E               &kp R                        &kp T                                               &kp Y        &kp U  &kp I      &kp O    &kp P
-&kp A      &kp S           &kp D               &lt 4 F                      &kp G        &kp LC(Y)             &kp PRINTSCREEN  &kp H        &kp J  &lt 5 K    &kp L    &kp SEMICOLON
-&kp Z      &kp X           &kp C               &kp V                        &kp B        &kp ESC               &kp ESC          &kp N        &kp M  &kp COMMA  &kp DOT  &kp SLASH
-&kp LCTRL  &kp LEFT_SHIFT  &mt LG(LEFT_ALT) C  &mt LEFT_SHIFT INT_MUHENKAN  &lt 2 SPACE  &lt 3 INT_HENKAN      &kp BACKSPACE    &lt 1 ENTER                             &lt 2 A
+&kp Q      &kp W           &kp E               &kp R                        &kp T                                             &kp Y        &kp U  &kp I      &kp O    &kp P
+&kp A      &kp S           &kp D               &lt 4 F                      &kp G        &kp LEFT_WIN          &kp TAB        &kp H        &kp J  &lt 5 K    &kp L    &kp SEMICOLON
+&kp Z      &kp X           &kp C               &kp V                        &kp B        &kp ESC               &kp ESC        &kp N        &kp M  &kp COMMA  &kp DOT  &kp SLASH
+&kp LCTRL  &kp LEFT_SHIFT  &mt LG(LEFT_ALT) C  &mt LEFT_SHIFT INT_MUHENKAN  &lt 2 SPACE  &lt 3 INT_HENKAN      &kp BACKSPACE  &lt 1 ENTER                             &lt 2 A
             >;
 
             sensor-bindings = <&encoder_msc_down_up>;
@@ -55,10 +55,10 @@
 
         FUNCTION {
             bindings = <
-&kp N1    &kp N2     &kp N3     &kp N4     &kp N5                              &kp N6       &kp LA(LEFT)      &kp UP_ARROW  &kp LA(RIGHT)  &kp N0
-&kp PLUS  &kp MINUS  &kp ASTRK  &kp SLASH  &kp EQUAL  &kp UNDER      &kp HOME  &kp ENTER    &kp LEFT          &kp DOWN      &kp UP_ARROW   &kp RIGHT
-&kp F1    &kp F2     &kp F3     &kp F4     &kp F5     &trans         &trans    &kp LA(TAB)  &kp LA(UP_ARROW)  &kp F8        &kp F9         &kp F10
-&trans    &trans     &trans     &trans     &trans     &trans         &trans    &trans                                                      &kp F11
+&kp N1    &kp N2     &kp N3     &kp N4     &kp N5                            &kp PRINTSCREEN  &kp LA(LEFT)      &kp UP_ARROW  &kp LA(RIGHT)  &trans
+&kp PLUS  &kp MINUS  &kp ASTRK  &kp SLASH  &kp EQUAL  &kp UNDER      &trans  &kp ENTER        &kp LEFT          &kp DOWN      &kp UP_ARROW   &kp RIGHT
+&kp F1    &kp F2     &kp F3     &kp F4     &kp F5     &trans         &trans  &kp LA(TAB)      &kp LA(UP_ARROW)  &kp F8        &kp F9         &kp F10
+&trans    &trans     &trans     &trans     &trans     &trans         &trans  &trans                                                          &kp F11
             >;
         };
 
