@@ -11,6 +11,7 @@
 #define NUM 6
 #define ZMK_POINTING_DEFAULT_SCRL_VAL 80
 
+
 &mt {
     flavor = "balanced";
     quick-tap-ms = <0>;
