@@ -93,8 +93,8 @@
         NUM {
             bindings = <
 &kp LS(EXCL)  &kp AT        &kp LS(POUND)  &kp LS(DLLR)  &kp LS(PRCNT)                                        &trans                 &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kpls JP_AT
-&kp SQT       &kp LS(LBRC)  &kp LBKT       &kp LS(LPAR)  &kp LS(DQT)    &kp LS(LT)      &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kpls JP_COLON
-&trans        &trans        &trans         &trans        &trans         &trans          &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kpls JP_UNDERSCORE
+&kp SQT       &kp LS(LBRC)  &kp LBKT       &kp LS(LPAR)  &kp LS(DQT)    &kp LS(LT)      &kpls JP_LBRACKET      &kpls JP_RBRACKET      &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kpls JP_COLON
+&trans        &trans        &trans         &trans        &trans         &trans          &kpls JP_LPAREN  &kpls JP_RPAREN  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kpls JP_UNDERSCORE
 &trans        &trans        &trans         &trans        &trans         &trans          &trans                &kp NUMBER_0                                                     &kpls JP_YEN
             >;
         };
