@@ -89,7 +89,7 @@
         PasteALine: PasteALine {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp HOME &kp LS(END) &kp LC(P)>;
+            bindings = <&kp HOME &kp LS(END) &kp LC(V)>;
             label = "PASTEALINE";
         };
 
