@@ -70,21 +70,21 @@
         SelectALine: SelectALine {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp HOME &kp LS(END)>;
+            bindings = <&kp HOME &kp LS(END) &kp RIGHT>;
             label = "SELECTALINE";
         };
 
         CopyALine: CopyALine {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp HOME &kp LS(END) &kp LC(C)>;
+            bindings = <&kp HOME &kp LS(END) &kp LC(C) &kp RIGHT>;
             label = "COPYALINE";
         };
 
         PasteALine: PasteALine {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp HOME &kp LS(END) &kp LC(V)>;
+            bindings = <&kp HOME &kp LS(END) &kp LC(V) &kp RIGHT>;
             label = "PASTEALINE";
         };
 
