@@ -133,10 +133,10 @@
 
         FUNCTION {
             bindings = <
-&trans       &trans       &trans        &trans        &trans                               &trans            &kp LA(LEFT)  &kp UP_ARROW  &kp LA(RIGHT)  &trans
-&trans       &SelectLeft  &SelectALine  &SelectRight  &trans  &trans      &kp LA(LC(DEL))  &kp LA(UP_ARROW)  &kp LEFT      &kp DOWN      &kp RIGHT      &kp LEFT_WIN
-&ClearALine  &CutALine    &CopyALine    &PasteALine   &trans  &trans      &kp LA(LC(END))  &kp PRINTSCREEN   &kp HOME      &kp LA(TAB)   &kp END        &trans
-&trans       &trans       &trans        &trans        &trans  &trans      &trans           &trans                                                       &trans
+&trans  &trans       &ClearALine   &trans        &trans                               &trans            &kp LA(LEFT)  &kp UP_ARROW  &kp LA(RIGHT)  &trans
+&trans  &SelectLeft  &SelectALine  &SelectRight  &trans  &trans      &kp LA(LC(DEL))  &kp LA(UP_ARROW)  &kp LEFT      &kp DOWN      &kp RIGHT      &kp LEFT_WIN
+&trans  &CutALine    &CopyALine    &PasteALine   &trans  &trans      &kp LA(LC(END))  &kp PRINTSCREEN   &kp HOME      &kp LA(TAB)   &kp END        &trans
+&trans  &trans       &trans        &trans        &trans  &trans      &trans           &trans                                                       &trans
             >;
         };
 
