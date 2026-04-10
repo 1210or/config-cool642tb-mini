@@ -70,7 +70,7 @@
         SelectALine: SelectALine {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp HOME &kp LS(END) &kp RIGHT>;
+            bindings = <&kp HOME &kp LS(END)>;
             label = "SELECTALINE";
         };
 
